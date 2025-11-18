@@ -22,7 +22,7 @@ function Github() {
           <div className="flex justify-center items-center h-full w-full gap-6">
             <img src={data.avatar_url} className="rounded-full w-40 h-40" />
             <div>
-              <h1 className="font-bold text-3xl text-white">Total Follower</h1>
+              <h1 className="font-bold text-3xl text-white">Total Followers</h1>
               <h1 className="text-2xl font-normal text-white">
                 {data.followers}
               </h1>
