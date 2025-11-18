@@ -20,7 +20,7 @@ function Github() {
             className="w-10 h-10 absolute right-1 top-1 rounded-full"
           />
           <div className="flex justify-center items-center h-full w-full gap-6">
-            <img src={data.avatar_url} className="rounded-full w-40 h-40" />
+            <img src={data.avatar_url} className="rounded-full w-40 h-40 border-4 border-white object-cover" />
             <div>
               <h1 className="font-bold text-3xl text-white">Total Followers</h1>
               <h1 className="text-2xl font-normal text-white">
