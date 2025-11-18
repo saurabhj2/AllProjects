@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .list li {
+    @apply rounded-full text-white font-medium py-2 px-5 cursor-pointer outline-none;
+  }
+}
