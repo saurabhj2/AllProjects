@@ -1,16 +1,8 @@
-import { useEffect, useState } from "react";
+
 import { useLoaderData } from "react-router-dom";
 
 function Github() {
   const data = useLoaderData();
-  // const [hdata, setData] = useState([]);
-  // useEffect(() => {
-  //   fetch("https://api.github.com/users/hiteshchoudhary")
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       setData(data);
-  //     });
-  // });
   return (
     <>
       <div className="w-full h-screen flex justify-center items-center">
